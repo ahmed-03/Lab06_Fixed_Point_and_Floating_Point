@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 24 21:36:33 2024
+# Process ID: 7980
+# Current directory: /home/it/sv_projects/lab06/project_06/project_06.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/it/sv_projects/lab06/project_06/project_06.sim/sim_1/behav/xsim/xsim.dir/tb_Fixed_Point_Addition_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/it/sv_projects/lab06/project_06/project_06.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/it/sv_projects/lab06/project_06/project_06.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/it/sv_projects/lab06/project_06/project_06.sim/sim_1/behav/xsim/xsim.dir/tb_Fixed_Point_Addition_behav/webtalk/xsim_webtalk.tcl -notrace
