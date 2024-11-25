@@ -2,9 +2,9 @@
 
 module tb_Fixed_Point_Addition;
 
-    localparam n1 = 8;
-    localparam n2 = 5;
-    localparam m1 = 2;
+    localparam n1 = 2;
+    localparam n2 = 3;
+    localparam m1 = 3;
     localparam m2 = 2;
 
     logic [n1+m1-1:0] a;
@@ -18,17 +18,14 @@ module tb_Fixed_Point_Addition;
     );
 
     initial begin
-        a = 22.40 * (2 ** m1);
-        b = 1.0 * (2 ** m2);
+        a = 11.002;
+        b = 200.11;
         #10;
 
-        a = 0.5 * (2 ** m1);
-        b = 22.000 * (2 ** m2);
+        a = 0.5;
+        b = 22.000;
         #10;
 
-        a = 12.5324 * (2 ** m1);
-        b = 5.55 * (2 ** m2);
-        #10;
 
         $finish;
     end
